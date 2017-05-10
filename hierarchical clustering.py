@@ -14,7 +14,6 @@ def flatten(l):
         else:
             yield el
 
-
 #2
 def flatten(container):
     for i in container:
@@ -26,10 +25,8 @@ def flatten(container):
 
 
 filename = "rosalind_ba8e.txt"
-enclosed_folder = "/Users/Unname/Dropbox/UCLA Academic/2016-2017 Spring/CM224 - Computational Genetics/rosalind"
+enclosed_folder = "../rosalind"
 full_path = os.path.join(enclosed_folder,filename)
-
-
 
 with open(full_path) as input_data:
     temp = input_data.readlines()
